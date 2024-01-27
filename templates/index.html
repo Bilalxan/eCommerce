@@ -1,0 +1,103 @@
+{% include "header.html" %}
+
+<div class="jumbotron text-center shadow">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">Today is an amazing day for shopping so don't miss out our terribly cheap goods that fit for
+        you.</p>
+
+    <p>It is as simple as you think, just click one of the buttons below to get started.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg mb-3" href="{{ url_for('register') }}" role="button">Register</a>
+        <a class="btn btn-primary btn-lg mb-3" href="{{ url_for('login_page') }}" role="button">Login</a>
+    </p>
+</div>
+<br/>
+<hr class="my-4">
+
+<!--First Group-->
+<div class="card-group p-2">
+    <div class="card text-center">
+        <img src="static/images/Fire_Max_11_Productivity_Bundle.jpeg" class="p-3 card-img-top img-fluid" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Fire_Max_11_Productivity_Bundle</h5>
+            <p class="card-text">YQ10SPRO 10-Inch Android 11 Tablet with 3GB RAM, 64GB ROM, 1280x800 IPS Touch Screen,
+                Pre-installed Kids IWAWA App, Adjustable Stand, Long Battery Life.</p>
+            <a class="nav-link px-lg-3 py-3 py-lg-4 btn-primary"
+               href="{{ url_for('payment_page') }}"
+            >Add to card</a
+            >
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="static/images/iphone.jpg" class="p-3 card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">iphone</h5>
+            <p class="card-text">Mini Smartphone 7Plus, World's Smallest 7S Android Mobile Phone, Super Small Tiny Micro
+                2.4" Touch Screen Global Unlocked Great for Kids Tiny iPhone Look Alikexs</p>
+            <a class="nav-link px-lg-3 py-3 py-lg-4 btn-primary"
+               href="{{ url_for('payment_page') }}"
+            >Add to card</a
+            >
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="static/images/kitchen.jpeg" class="p-3 card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Kitchen Wares</h5>
+            <p class="card-text">11pcs Nonstick Cookware Set With Detachable Handle, Induction Kitchen Sets Non Stick,
+                Removable Handle, RV Oven Safe, Black</p>
+            <a class="nav-link px-lg-3 py-3 py-lg-4 btn-primary"
+               href="{{ url_for('payment_page') }}"
+            >Add to card</a
+            >
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+<hr class="my-2">
+<!--Second Group-->
+<div class="card-group p-2">
+    <div class="card text-center">
+        <img src="static/images/furniture.jpg" class="p-3 card-img-top img-fluid w-100" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Furniture</h5>
+            <p class="card-text">Brezio 47" W Computer Desk, Black</p>
+            <a class="nav-link px-lg-3 py-3 py-lg-4 btn-primary"
+               href="{{ url_for('payment_page') }}"
+            >Add to card</a
+            >
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="static/images/manicure.jpg" class="p-3 card-img-top img-fluid w-80" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Manicure</h5>
+            <p class="card-text">Nail Clipper Professional Grooming Kit Pedicure Kit Nail Cutter Tools with Luxurious
+                Travel Case Manicure Scissors Makeup (Color : 12pcs Brown)</p>
+            <a class="nav-link px-lg-3 py-3 py-lg-4 btn-primary"
+               href="{{ url_for('payment_page') }}"
+            >Add to card</a
+            >
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="static/images/fridge.jpg" class="p-3 card-img-top w-75" alt="..." style="margin-left: 70px;">
+        <div class="card-body">
+            <h5 class="card-title">Fridge Wares</h5>
+            <p class="card-text">ProKeeper+ 9 Piece Clear Plastic Airtight Food Flour and Sugar Baker's Kitchen Storage
+                Organization Container Canister Set with Magnetic Accessories</p>
+            <a class="nav-link px-lg-3 py-3 py-lg-4 btn-primary"
+               href="{{ url_for('payment_page') }}"
+            >Add to card</a
+            >
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+{% include "footer.html" %}
